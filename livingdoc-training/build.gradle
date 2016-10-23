@@ -1,0 +1,10 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal() // used to get the latest version of the install livingdoc-gradle plugin
+    }
+}
+
+dependencies{
+    compile "info.novatec.testit:livingdoc-cli:1.2.0"
+}
